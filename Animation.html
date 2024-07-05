@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .a{
+            width: 1000px;
+            height: 500px;
+            background-color: rgb(161, 201, 228);
+            animation-duration: 5s;
+            animation-name: anuja;
+        }
+        @keyframes anuja {
+    from {
+        background-image: linear-gradient(30deg, red, pink,orange,lightgreen);
+    }
+    to {
+        background-image: linear-gradient(30deg, lightgreen,lightblue,rgb(253, 162, 253));
+    }
+}
+         .element {
+    animation: anuja 5s infinite; 
+}
+</style>
+</head>
+<body>
+      
+    <div class="a">
+
+    </div>
+</body>
+</html>
